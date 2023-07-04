@@ -12,7 +12,7 @@ import {
   useTokenBalance,
   Web3Button,
 } from "@thirdweb-dev/react";
-import { FaTwitter, FaDiscord } from "react-icons/fa"; // Добавлены импорты для иконок Twitter и Discord
+import { FaTwitter, FaDiscord } from "react-icons/fa"; 
 
 import NFTCard from "../components/NFTCard";
 import {
@@ -74,7 +74,7 @@ const Stake: NextPage = () => {
       <div className={styles.topSection}>
         <h1 className={styles.h1}>Minting the elements of the NFT!</h1>
         <p className={styles.explain}>
-          Get rewarded with <b>DROP</b> tokens for stacking NFT!
+          Get rewarded with <b>Electron</b> tokens for stacking NFT!
         </p>
       </div>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />

@@ -3,4 +3,4 @@ export const editionDropContractAddress =
 export const tokenContractAddress =
   "0xCF676827BEE310843210D4BDC0555aBb0B52249d";
 export const stakingContractAddress =
-  "0xFE18aA7D575Dce1F1876d3F220052c831faF32B1";
+  "0x81acBaFB5b3F2F651AC999BFBF24D0b777C121Cb";
