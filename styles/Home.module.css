@@ -1,0 +1,239 @@
+.container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  padding: 0 24px;
+}
+
+.h1 {
+  margin-bottom: 0;
+}
+
+.explain {
+  font-size: 1.125rem;
+  max-width: 1200px;
+}
+
+.divider, .smallDivider {
+  width: 25%;
+  border-color: grey;
+  opacity: 0.25;
+}
+
+.smallDivider {
+  margin-top: 64px;
+}
+
+.nftBoxGrid {
+  width: 1200px;
+  max-width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 28px;
+}
+
+.nftBox {
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  width: 19%;
+  min-height: 200px;
+  padding: 16px;
+}
+
+.optionSelectBox {
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  width: 48%;
+  min-height: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+.selectBoxTitle {
+  font-size: 1.75rem;
+  margin: 8px 0;
+}
+
+.selectBoxDescription {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .nftBox {
+    width: 49%;
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nftBoxGrid,
+  .nftBox,
+  .optionSelectBox {
+    width: 90%;
+    margin-top: 16px;
+  }
+}
+
+.tokenGrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  width: 1600px;
+  max-width: 95vw;
+  margin: 16px 0;
+}
+
+.tokenItem {
+  width: 10%;
+  height: 80px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  gap: 6px;
+}
+
+.tokenLabel {
+  margin: 0;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tokenValue {
+  font-size: 1.3rem;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 850px) {
+  .tokenItem {
+    width: 90%;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .center {
+    display: none;
+  }
+}
+
+.spacerTop, .spacerBottom {
+  margin: 16px 0;
+}
+
+.bigSpacerTop {
+  margin-top: 32px;
+}
+
+.detailPageHr {
+  margin: 0 0 32px;
+}
+
+.nftMedia {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 15px;
+}
+
+.buttonContainer,
+.claimButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 8px;
+}
+
+.buttonContainer > *:not(:last-child),
+.claimButtonContainer > *:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button,
+.claimButton {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.button:hover,
+.claimButton:hover {
+  background-color: #aaa;
+}
+
+.button:focus,
+.claimButton:focus {
+  outline: none;
+}
+
+.buttonContainer > *:last-child,
+.claimButtonContainer > *:last-child {
+  margin-right: 0;
+}
+
+.buttonSpacer {
+  width: 34px;
+  height: 1px;
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcon {
+  font-size: 36px;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.socialIcon:hover {
+  color: #aaa;
+}
+.donateSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.donateIcon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.donateText {
+  font-size: 16px;
+  font-weight: bold;
+}
