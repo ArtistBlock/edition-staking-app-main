@@ -15,7 +15,7 @@ interface NFTCardProps {
   tokenId: number;
 }
 
-const NFTCard: FC<NFTCardProps> = ({ tokenId }) => {
+const NFTCard: FC<NFTCardProps> = ({ tokenId }: NFTCardProps) => {
   const { contract } = useContract(editionDropContractAddress, "edition-drop");
   const { data: nft } = useNFT(contract, tokenId);
 
