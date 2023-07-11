@@ -22,6 +22,7 @@ import {
 } from "../consts/contractAddresses";
 
 import styles from "../styles/Home.module.css";
+import Home from "../stnft/pages";
 
 const Stake: NextPage = () => {
   const router = useRouter();
