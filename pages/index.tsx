@@ -209,4 +209,4 @@ const Stake: NextPage = () => {
   );
 };
 
-export default Stake;
+export default Home;
